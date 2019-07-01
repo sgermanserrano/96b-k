@@ -479,6 +479,8 @@ struct scsi_host_template {
 	 */
 	struct device_attribute **sdev_attrs;
 
+    const struct attribute_group **sdev_groups;
+
 	/*
 	 * List of hosts per template.
 	 *
