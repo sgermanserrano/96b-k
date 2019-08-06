@@ -127,4 +127,4 @@ config SCSI_UFS_BSG
 	  that supports UFS devices.
 
 	  Select this if you need a bsg device node for your UFS controller.
-      If unsure, say N.
+	  If unsure, say N.
